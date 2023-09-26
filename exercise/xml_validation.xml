@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Products [
+	<!ELEMENT Products (Product*)>
+	<!ELEMENT Product (Maker, Name, Price, Discount, Code)>
+	<!ELEMENT Maker (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ELEMENT Discount (#PCDATA)>
+	<!ELEMENT Code (#PCDATA)>
+]>
+<Products>
+	<Product>
+		<Maker>Nike</Maker>
+		<Name>Jordan 5</Name>
+		<Price>250000</Price>
+		<Discount>10</Discount>
+		<Code>WB-34-56</Code>
+	</Product>
+  	<Product>
+    		<Maker>Adidas</Maker>
+    		<Name>Stan Smith</Name>
+    		<Price>225000</Price>
+    		<Discount>30</Discount>
+    		<Code>NC-13-25</Code>
+	</Product>
+</Products>
