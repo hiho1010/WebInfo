@@ -8,9 +8,11 @@
     <!ELEMENT CoAuthor (#PCDATA|Author)*>
     <!ELEMENT Year (#PCDATA)>
     <!ELEMENT Summary ANY>
+
+    <!ATTLIST BOOK lang CDATA "US">
 ]>
 <BookCatalog>
-    <Book>
+    <Book lang = "KR"> 
         <Title> Programming is FUN! </Title>
         <Author> Steve </Author>
         <CoAuthor> Jobs </CoAuthor>
@@ -18,7 +20,7 @@
         <Summary> it's fun </Summary>
     </Book>
     <Book>
-        <Title> CleanCode </Title>
+        <BookCode> AB <BookCode>
         <Author> Robert </Author>
         <CoAuthor> empty </CoAuthor>
         <Year> 2018 </Year>
