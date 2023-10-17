@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://cs.skuniv.ac.kr/xml/2023/"
+           xmlns="http://cs.skuniv.ac.kr/xml/2023/"
+           elementFormDefault="qualified">
+
+    <group name = "AlbumGroup">
+        <sequence>
+            <element name="Artist" type="string"/>
+            <element name="Title" type="string"/>
+            <element name="Genre" type="string"/>
+            <element name="Released-date" type="date"/>
+            <element name="Song" type="string" maxOccurs="unbounded"/>
+        </sequence>
+    </group>
+    <complexType name="AlbumType">
+        <group ref="target:AlbumGroup"
+    </complexType>
+
+    <element name="AudioCatalog">
+            <choice maxOccurs="unbounded">
+                <element name="CD" type="target:AlbumGroup"/>
+                <element name="LP" type="target:AlbumGroup"/>
+                <element name="MP3" type="target:AlbumGroup"/>
+            </choice>
+
+    </element>
+</schema>

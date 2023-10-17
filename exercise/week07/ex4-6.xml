@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<AudioCatalog xmlns="http://cs.skuniv.ac.kr/xml/2023/"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema=instance"
+              xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/2023/ ex4-5.xsd">
+
+    <CD>
+        <Artist> </Artist>
+        <Title> </Title>
+        <Gerne> </Gerne>
+        <Released-date> </Released-date>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+    </CD>
+    <LP>
+        <Artist> </Artist>
+        <Title> </Title>
+        <Gerne> </Gerne>
+        <Released-date> </Released-date>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+    </LP>
+    <MP3>
+        <Artist> </Artist>
+        <Title> </Title>
+        <Gerne> </Gerne>
+        <Released-date> </Released-date>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+        <Song> </Song>
+    </MP3>
