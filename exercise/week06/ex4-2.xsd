@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://cs.skuniv.ac.kr/xml/2023/"	
+	xmlns:target="http://cs.skuniv.ac.kr/xml/2023/"
+	elementFormDefault="quailfied">
+
+<element name = "BookCatalog"> <!-- complex Type이므로 Type 선언 안함-->
+	<complexType>
+		<sequence> <!-- complexType을 넣으면 밑에 sequence넣기 모르면 외워 걍 -->
+			<element name = "Book" maxOccurs="unbounded"> <!--여러번 반복이 되어도 문제 x-->
+				<complexType>
+					<sequnce>
+						<element name = "Title" type="string"/>
+						<element name = "Author" type="string"/>
+						<element name = "Year" type="string"/>
+					</sequnce>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</elemenet>
+</schema>				
+				
+				

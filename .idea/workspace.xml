@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faf797a-160a-4178-8703-ffe793dbef25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-5.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-6.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/week07/ex4-7.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start/week_07.md" afterDir="false" />
-    </list>
+    <list default="true" id="4faf797a-160a-4178-8703-ffe793dbef25" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2WsByCIXIyqVpGriG6wRgi6J7Xh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,7 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/heeho/WebInfo",
+    "last_opened_file_path": "C:/Users/heeho/open-cv-programming",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697511658957</updated>
       <workItem from="1697511660031" duration="6123000" />
+      <workItem from="1697640600277" duration="26000" />
     </task>
     <servers />
   </component>

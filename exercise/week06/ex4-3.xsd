@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://cs.skuniv.ac.kr/xml/2023/"	
+	xmlns:target="http://cs.skuniv.ac.kr/xml/2023/"
+	elementFormDefault="quailfied">
+
+<elemnet name="Book" type="string"/>
+<elemnet name="Author" type="string"/>
+<elemnet name="Year" type="string"/>
+
+
+<element name = "BookCatoalog"> 
+	<complexType>
+		<sequnce>
+			<element ref = "target:Book" maxOccurs="unbounded"/>
+		</sequnce>
+	</complexType>
+</element>
+
+<element name = "Book">
+	<complexType>
+		<sequence>
+			<element ref="target:Book"/>
+			<element ref="target:Author"/>
+			<element ref="target:Year"/>
+		</sequece>
+	</complexType>
+</element>
