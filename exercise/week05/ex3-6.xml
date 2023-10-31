@@ -1,0 +1,29 @@
+<?xml version = "1.0" ?>
+<!DOCTYPE BookCatalog [
+    <!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book ((Title|BookCode), Author, CoAuthor, Year, Summary)>
+    <!ELEMENT BookCode (#PCDATA)>
+    <!ELEMENT Title (#PCDATA)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT CoAuthor (#PCDATA|Author)*>
+    <!ELEMENT Year (#PCDATA)>
+    <!ELEMENT Summary ANY>
+
+    <!ATTLIST BOOK lang CDATA "US">
+]>
+<BookCatalog>
+    <Book lang = "KR"> 
+        <Title> Programming is FUN! </Title>
+        <Author> Steve </Author>
+        <CoAuthor> Jobs </CoAuthor>
+        <Year> 2023 </Year>
+        <Summary> it's fun </Summary>
+    </Book>
+    <Book>
+        <BookCode> AB <BookCode>
+        <Author> Robert </Author>
+        <CoAuthor> empty </CoAuthor>
+        <Year> 2018 </Year>
+        <Summary> 123456 </Summary>
+    </Book>
+</BookCatalog>
