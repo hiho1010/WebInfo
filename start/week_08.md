@@ -10,3 +10,14 @@
 ---
 
 # Chapter05. XSLT
+
+
+
+
+
+match가 여러개 있으면 모호성이 발생하고 에러가 난다. xsl에서는 하나만 선택되게 돼있다.
+예시로 들었던 거에서는 여러개가 매치났을 떄는 하나만 고르는데 그 규칙은
+### [template 적용순서]
++ 좀 더 정확하게 지정된 template
++ Priority 순위가 더 큰 template
++ 가장 마지막에 나오는 template
